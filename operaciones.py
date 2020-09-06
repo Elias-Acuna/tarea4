@@ -48,6 +48,52 @@
   },
   {
    "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'el resultado de multiplicar 100 por 0.25 es 25'"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#multiplicacion\n",
+    "x = 100\n",
+    "y = 0.25\n",
+    "f'el resultado de multiplicar {x} por {y} es {int(x*y)}'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'al dividir 3 por 0.0005 obtenemos 5999.0 y su resto es 0.0004999999999999376'"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#division \n",
+    "x = 3\n",
+    "y =0.0005\n",
+    "f'al dividir {x} por {y} obtenemos {x//y} y su resto es {x%y}'"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": null,
    "metadata": {},
    "outputs": [],
